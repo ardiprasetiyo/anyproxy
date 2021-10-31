@@ -90,7 +90,7 @@
     "worker-loader": "^0.7.1"
   },
   "scripts": {
-    "prepublish": "npm run buildweb",
+    "prepare": "npm run buildweb",
     "test": "npx jest",
     "lint": "eslint .",
     "testserver": "node test/server/startServer.js",
